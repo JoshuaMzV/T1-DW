@@ -1,30 +1,30 @@
-# T1-DW
-Desarrollo de la Tarea 1 del curso de Desarrollo Web de la Facultad de Ingenieria de la Mariano Galvez de Guatemala
+T1-DW — Sitio React + Bootstrap (Tarea 1)
+Este repositorio ahora contiene una versión mejorada del sitio de la Tarea 1 desarrollada con React y Bootstrap. El objetivo es presentar información detallada sobre los cursos trabajados en la Tarea 1, con páginas responsivas y componentes interactivos.
 
-# Sitios Web Informativos - Cursos Universitarios
+Estado: rama feature/react-bootstrap contiene la aplicación React. La rama main conserva los archivos HTML originales.
 
-Este repositorio contiene páginas web desarrolladas únicamente en **HTML puro**, como parte del curso de **Desarrollo Web** en la Universidad Mariano Gálvez de Guatemala. Cada página presenta información de un curso universitario distinto, incluyendo su descripción, contenido y objetivos generales.
+Estructura relevante
+index.html, src/ — aplicación React (Vite).
+src/pages/Home.jsx — Página de inicio (carrusel, listado de cursos).
+src/pages/Cursos.jsx — Página de detalles de cursos (Accordion, Table, ListGroup).
+Cómo ejecutar localmente
+Instalar dependencias:
+cd "c:\Users\Joshua\Documents\VSCode\T1-DW"
+npm install
+Ejecutar en modo desarrollo:
+npm run dev
+Abrir el navegador en la URL que muestre Vite (por ejemplo http://localhost:5173).
+Publicación
+El sitio debe publicarse en Netlify. Tras publicar, añade el enlace aquí y en la descripción del proyecto.
 
-## 🚀 Enlace de publicación en Netlify
+Integrantes
+Nombre: Joshua Méndez — Carnet: 1234567
+Nombre: Otro Integrante — Carnet: 7654321
+Reemplaza los nombres y carnets por los reales antes de entregar.
 
-**[https://688476751960c13837e4d2b0--t1-dw-josh.netlify.app]**
+Nota sobre control de versiones
+Si el repositorio es privado, invita al usuario ingVillatoroUMG o usa otra rama separada a main (esta tarea ya creó feature/react-bootstrap).
 
-
-## 📘 Contenido del repositorio
-
-Cada archivo HTML representa un curso diferente:
-
-- `curso_etica.html` – Curso de etica
-- `curso_dase-datos.html` – Curso de Base de Datos
-- `curso_prgramacion.html` – Curso de programacion
-- `curso_desarrollo.html` – Curso de Desarrollo Web
--  `curso_sistemasoperativos.html` – Curso de sistemas
-
-Cada uno incluye:
-- Título del curso
-- Descripción general
-- Objetivos principales
-- Estructura clara y moderna dentro de lo posible usando solo HTML
 
 ## 👨‍🎓 Estudiante
 
